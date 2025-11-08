@@ -43,6 +43,20 @@ I love creating intuitive web experiences, automating workflows, and exploring t
 
 ---
 
+## 💼 Portfolio Repositories
+
+Here are my personal **Portfolio Websites** that showcase my design, layout, and development style:
+
+| Repository | Live Demo | Description |
+|-------------|------------|--------------|
+| [Portfolio-Repos](https://github.com/mk-knight23/Portfolio-Repos) | 🔗 [Live Here](https://mk-knight23.github.io/Portfolio-Repos) | A dynamic portfolio site showcasing all my key projects. |
+| [MK Portfolio](https://github.com/mk-knight23/mk-portfolio) | 🔗 [Live Here](https://mk-knight23.github.io/mk-portfolio) | My original portfolio website with a clean, responsive layout. |
+| [MKTech](https://github.com/mk-knight23/mktech) | 🔗 [Live Here](https://mk-knight23.github.io/mktech) | A modern, tech-themed portfolio with animations and project highlights. |
+
+> ✨ Each portfolio showcases my web development and UI/UX design skills with live interactive sections and responsive layouts.
+
+---
+
 ## 🎨 HTML, CSS, and JavaScript Projects
 
 A collection of my early and intermediate projects built using vanilla web technologies — exploring interactivity, games, and UI designs.
@@ -50,7 +64,6 @@ A collection of my early and intermediate projects built using vanilla web techn
 | Project | Description |
 |----------|--------------|
 | [Car-Game](https://github.com/mk-knight23/mk3) | Simple car racing game using HTML, CSS, and JavaScript. |
-| [MK Portfolio](https://github.com/mk-knight23/mk-portfolio) | My personal developer portfolio website. |
 | [Typing-Web](https://github.com/mk-knight23/typing12) | Fun typing speed test web app. |
 | [IMDB-WEB](https://github.com/mk-knight23/imdbApi) | Movie info web app using the IMDB API. |
 | [DATA-ENTRY WEB](https://github.com/mk-knight23/DATA-ENTRY) | Basic data entry and CRUD form using JS. |
