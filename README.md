@@ -531,16 +531,25 @@ git clone https://github.com/mk-knight23/<repo-name>.git
 # Navigate to project directory
 cd <repo-name>
 
-# Install dependencies (for Node.js projects)
+# Install dependencies
+# For Node.js (Legacy CRA)
 npm install
-# or for Python projects
+# For Node.js (Modern Vite)
+npm install
+
+# For Python (Standard)
 pip install -r requirements.txt
+# For Python (Modern uv)
+uv sync
 
 # Set up environment variables
 cp .env.example .env
 # Edit .env with your configuration
 
 # Run the project
-npm start          # for Node.js
+npm start          # for Legacy Node.js
+npm run dev        # for Modern Vite Apps
 python app.py      # for Python
+uv run app.py      # for Modern Python
 python manage.py runserver  # for Django
+```
