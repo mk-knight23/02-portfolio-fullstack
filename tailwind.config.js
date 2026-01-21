@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#0f172a",
-        primary: "#a78bfa",
-        secondary: "#ec4899",
+        background: "#020617",
+        primary: "#8b5cf6",
+        secondary: "#d946ef",
+        slate: {
+          950: "#020617",
+        }
       },
       animation: {
         'blob': "blob 7s infinite",

@@ -45,11 +45,12 @@ function App() {
     );
 
     return (
-        <div className="min-h-screen bg-[#0f172a] p-4 md:p-8">
-            {/* Background Blobs */}
+        <div className="min-h-screen bg-slate-950 text-slate-50 p-4 md:p-8 selection:bg-primary/30">
+            {/* Premium Background Blobs */}
             <div className="fixed inset-0 overflow-hidden pointer-events-none">
-                <div className="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-primary/10 rounded-full blur-[120px] animate-pulse"></div>
-                <div className="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-secondary/10 rounded-full blur-[120px] animate-pulse delay-700"></div>
+                <div className="absolute top-[-10%] left-[-10%] w-[60%] h-[60%] bg-primary/5 rounded-full blur-[120px] animate-pulse"></div>
+                <div className="absolute bottom-[-10%] right-[-10%] w-[60%] h-[60%] bg-secondary/5 rounded-full blur-[120px] animate-pulse delay-1000"></div>
+                <div className="absolute top-[20%] right-[10%] w-[40%] h-[40%] bg-blue-500/5 rounded-full blur-[120px] animate-pulse delay-500"></div>
             </div>
 
             <div className="max-w-7xl mx-auto relative">
@@ -123,10 +124,10 @@ function App() {
 
 function StatCard({ title, value, icon, color }: { title: string, value: string, icon: React.ReactNode, color: string }) {
     return (
-        <div className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md">
-            <div className={`${color} mb-4`}>{icon}</div>
-            <div className="text-3xl font-bold mb-1">{value}</div>
-            <div className="text-slate-400 text-sm font-medium">{title}</div>
+        <div className="p-6 rounded-2xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-xl hover:bg-white/[0.05] transition-all duration-300">
+            <div className={`${color} mb-4 opacity-80`}>{icon}</div>
+            <div className="text-3xl font-bold mb-1 tracking-tight">{value}</div>
+            <div className="text-slate-400 text-sm font-medium uppercase tracking-wider">{title}</div>
         </div>
     );
 }
@@ -139,10 +140,11 @@ function ProjectCard({ project, index }: { project: any, index: number }) {
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.9 }}
             transition={{ delay: index * 0.05 }}
-            whileHover={{ y: -5 }}
-            className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md hover:border-primary/30 transition-all group flex flex-col justify-between h-full"
+            whileHover={{ y: -8, transition: { duration: 0.3 } }}
+            className="p-6 rounded-3xl bg-white/[0.03] border border-white/[0.08] backdrop-blur-xl hover:border-primary/40 hover:bg-white/[0.06] transition-all duration-300 group flex flex-col justify-between h-full relative overflow-hidden"
         >
-            <div>
+            <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="relative z-10">
                 <div className="flex items-center justify-between mb-4">
                     <span className="text-xs font-mono text-primary bg-primary/10 px-2 py-1 rounded">#{project.id}</span>
                     <StatusBadge status={project.status} />

@@ -1,26 +1,30 @@
 # 02-repos-browser
 
-✨ Professional Repository Showcase Template
-
-## Live Deployments
-- Netlify: https://02-repos-browser-mkazi.netlify.app
-- GitHub Pages: https://mk-knight23.github.io/02-repos-browser/
-
-Status: 🟢 Live
-Last Updated: 2026-01-21T13:51:00+05:30
+✨ A premium repository explorer and browser designed for high-density information display with a frictionless user experience.
 
 ## Features
-- 📱 Mobile Responsive
-- ⚡ Fast Performance
-- 🎨 Modern UI/UX
+- 📂 Advanced Repository Grid & List Views
+- 🔍 Instant Search & Multi-criteria Filtering
+- 📱 Responsive Design for All Screen Sizes
+- ⚛️ Optimized React 18 Architecture
+- ⚡ Lightning Fast Built with Vite 6
+
+## Tech Stack
+- **Frontend**: React 18, Tailwind CSS v4
+- **Build Tool**: Vite 6
+- **Icons**: Lucide React
+- **Animations**: Framer Motion
 
 ## Quick Start
 ```bash
-git clone https://github.com/mk-knight23/02-repos-browser.git
-cd 02-repos-browser
 npm install
 npm run dev
 ```
 
-## License
-MIT
+## Documentation
+Additional technical details can be found in the [docs/](docs/) directory.
+
+## Live Deployment
+GitHub Pages: [Pending]
+Status: 🟡 Initializing Pipeline
+Last Updated: 2026-01-21
