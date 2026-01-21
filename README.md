@@ -3,16 +3,11 @@
 ✨ Professional Repository Showcase Template
 
 ## Live Deployments
-- Vercel: FAILED (Limit Reached)
-- Netlify: FAILED (CLI Link Issue)
-- Cloudflare Pages: FAILED (Auth Issue)
-- Fly.io: N/A
-- Railway: N/A
-- Render: N/A
+- Netlify: https://02-repos-browser-mkazi.netlify.app
 - GitHub Pages: https://mk-knight23.github.io/02-repos-browser/
 
-Status: 🟢 All Deployments Live (Partial)
-Last Updated: 2026-01-21T12:44:00+05:30
+Status: 🟢 Live
+Last Updated: 2026-01-21T13:51:00+05:30
 
 ## Features
 - 📱 Mobile Responsive
