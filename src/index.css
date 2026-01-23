@@ -1,13 +1,16 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
-@layer base {
-    body {
-        @apply antialiased;
-    }
+@theme {
+    --color-primary: #8b5cf6;
+    --color-secondary: #d946ef;
 }
 
-.glass {
-    @apply bg-white/5 backdrop-blur-xl border border-white/10;
+@layer base {
+    * {
+        @apply border-white/10;
+    }
+
+    body {
+        @apply bg-slate-950 text-slate-50;
+    }
 }
