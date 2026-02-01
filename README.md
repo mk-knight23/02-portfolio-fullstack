@@ -8,6 +8,7 @@
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)](https://02-portfolio-fullstack.vercel.app/)
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://02-portfolio-fullstack.netlify.app/)
 [![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare)](https://02-portfolio-fullstack.mk-knight970.workers.dev/)
+[![Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://02-portfolio-fullstack.mk-knight970.cloud.run/)
 [![Source](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/mk-knight23/02-portfolio-fullstack)
 
 ---
@@ -83,6 +84,7 @@ In building this ecosystem, I leverage specialized agent workflows:
 
 | Platform | URL |
 |----------|-----|
+| **Cloud Run** | [02-portfolio-fullstack.mk-knight970.cloud.run](https://02-portfolio-fullstack.mk-knight970.cloud.run/) |
 | **Cloudflare Workers** | [02-portfolio-fullstack.mk-knight970.workers.dev](https://02-portfolio-fullstack.mk-knight970.workers.dev/) |
 | **Vercel** | [02-portfolio-fullstack.vercel.app](https://02-portfolio-fullstack.vercel.app/) |
 | **Netlify** | [02-portfolio-fullstack.netlify.app](https://02-portfolio-fullstack.netlify.app/) |
