@@ -1,18 +1,13 @@
 # Build stage
 FROM node:22-slim AS build
 
+# Install build dependencies
 WORKDIR /app
-
-# Copy package files
 COPY package*.json ./
+RUN npm install
 
-# Install dependencies
-RUN npm clean-install
-
-# Copy project files
+# Copy project files and build
 COPY . .
-
-# Build the project
 RUN npm run build
 
 # Production stage
@@ -20,11 +15,11 @@ FROM node:22-slim
 
 WORKDIR /app
 
-# Copy package files and install production dependencies only
+# Install production dependencies only
 COPY package*.json ./
-RUN npm clean-install --omit=dev
+RUN npm install --omit=dev
 
-# Copy the built assets and server file
+# Copy built assets and server
 COPY --from=build /app/dist ./dist
 COPY server.js ./
 
@@ -32,8 +27,9 @@ COPY server.js ./
 ENV NODE_ENV=production
 ENV PORT=8080
 
-# Expose the port
+# Cloud Run expects the container to listen on 0.0.0.0
+# EXPOSE is mainly for documentation
 EXPOSE 8080
 
-# Start the server
+# Use array form for CMD, ensure it's simple
 CMD ["node", "server.js"]
