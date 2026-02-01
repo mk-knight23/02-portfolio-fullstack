@@ -7,6 +7,7 @@
 [![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-222222?style=for-the-badge&logo=github)](https://mk-knight23.github.io/02-repos-browser/)
 [![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)](https://02-portfolio-fullstack.vercel.app/)
 [![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://02-portfolio-fullstack.netlify.app/)
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare)](https://02-portfolio-fullstack.mk-knight970.workers.dev/)
 [![Source](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/mk-knight23/02-portfolio-fullstack)
 
 ---
@@ -82,9 +83,10 @@ In building this ecosystem, I leverage specialized agent workflows:
 
 | Platform | URL |
 |----------|-----|
-| **GitHub Pages** | [mk-knight23.github.io/02-repos-browser](https://mk-knight23.github.io/02-repos-browser/) |
+| **Cloudflare Workers** | [02-portfolio-fullstack.mk-knight970.workers.dev](https://02-portfolio-fullstack.mk-knight970.workers.dev/) |
 | **Vercel** | [02-portfolio-fullstack.vercel.app](https://02-portfolio-fullstack.vercel.app/) |
 | **Netlify** | [02-portfolio-fullstack.netlify.app](https://02-portfolio-fullstack.netlify.app/) |
+| **GitHub Pages** | [mk-knight23.github.io/02-repos-browser](https://mk-knight23.github.io/02-repos-browser/) |
 
 ---
 
@@ -153,4 +155,4 @@ I considered adding a VS Code-style command palette (Cmd+K). Rejected because it
 
 ---
 
-*Last Updated: January 31, 2026*
+*Last Updated: February 01, 2026*
