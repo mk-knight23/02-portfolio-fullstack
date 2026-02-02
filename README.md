@@ -1,5 +1,11 @@
 # Kazi Musharraf — Full Stack Developer
 
+## 🚀 Live Demo
+
+This portfolio is deployed to multiple platforms:
+
+
+
 **Building Scalable End-to-End Applications with React, Node.js & TypeScript**
 
 ---
