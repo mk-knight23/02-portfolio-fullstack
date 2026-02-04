@@ -166,3 +166,22 @@ I considered adding a VS Code-style command palette (Cmd+K). Rejected because it
 ---
 
 *Last Updated: February 01, 2026*
+
+---
+
+## 🌐 Live Web Projects (09-16)
+
+View my deployed web applications:
+
+| # | Project | Live URL | Stack |
+|---|---------|----------|-------|
+| 09 | Geographic Explorer | [Live](https://09-web-geographic-explorer.vercel.app) | React 19 + TypeScript + Tailwind |
+| 10 | Time Display | [Live](https://10-web-time-display.vercel.app) | React 19 + TypeScript + Tailwind |
+| 11 | Keyboard Practice | [Live](https://11-web-keyboard-practice.vercel.app) | React 19 + TypeScript + Tailwind |
+| 12 | Editorial Blog | [Live](https://12-web-editorial-blog.vercel.app) | React 19 + TypeScript + Tailwind |
+| 13 | Brutalist Content | [Live](https://13-web-brutalist-content.vercel.app) | React 19 + TypeScript + Tailwind |
+| 14 | AI Research | [Live](https://14-web-ai-research.vercel.app) | React 19 + TypeScript + Tailwind |
+| 15 | Luxury Boutique | [Live](https://15-web-luxury-boutique.vercel.app) | React 19 + TypeScript + Tailwind |
+| 16 | Editorial Layouts | [Live](https://16-web-editorial-layouts.vercel.app) | React 19 + TypeScript + Tailwind |
+
+*All projects verified live on 2026-02-03*
