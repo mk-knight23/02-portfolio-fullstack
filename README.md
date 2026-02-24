@@ -1,106 +1,181 @@
-# Kazi Musharraf — Full Stack Developer
+# 02 Portfolio Fullstack — Kazi Musharraf
 
-## 🚀 Live Demo
+> **Clean SaaS portfolio showcasing end-to-end product development.**
+> Product-led design for technical recruiters and hiring managers.
 
-This portfolio is deployed to multiple platforms:
-
-
-
-**Building Scalable End-to-End Applications with React, Node.js & TypeScript**
-
----
-
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-222222?style=for-the-badge&logo=github)](https://mk-knight23.github.io/02-repos-browser/)
-[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)](https://02-portfolio-fullstack.vercel.app/)
-[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify)](https://02-portfolio-fullstack.netlify.app/)
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare)](https://02-portfolio-fullstack.mk-knight970.workers.dev/)
-[![Cloud Run](https://img.shields.io/badge/Google_Cloud_Run-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)](https://02-portfolio-fullstack.mk-knight970.cloud.run/)
-[![Source](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/mk-knight23/02-portfolio-fullstack)
+[![Live Site](https://img.shields.io/badge/Live%20Site-Fullstack-2563eb?style=for-the-badge&logo=firefox&logoColor=white)](https://mk-knight-fullstack.web.app)
+[![GitHub](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/mk-knight23/02-portfolio-fullstack)
+[![Ecosystem](https://img.shields.io/badge/60%20Projects-Ecosystem-10b981?style=for-the-badge)](https://www.mkazi.live)
 
 ---
 
-## About
+## What Is This?
 
-Full Stack Developer specializing in React, Node.js, TypeScript, Next.js, PostgreSQL, MongoDB, and REST API design. Currently building the **AI-VIBE-ECOSYSTEM v2.0** — a multi-product, agent-driven developer platform.
+This is **Portfolio #02 — Fullstack**, a product-led portfolio website designed for SaaS companies and product-focused teams. Built with React, TypeScript, and Tailwind CSS, it showcases my work through the lens of **end-to-end product development** — from database schema to user interface.
 
----
-
-## 🏗️ What I’m Building
-
-I am architecting **AI-VIBE-ECOSYSTEM v2.0**, a human-first developer platform where agents don't just write code—they collaborate within a unified system architecture. This ecosystem exists to bridge the gap between high-level intent and production-grade execution by treating AI as a first-class citizen in the developer's toolkit. This portfolio represents the **Fullstack lens** into that system, focusing on the end-to-end integration of agentic workflows.
+This portfolio is one of **eight specialized portfolio experiences**, each optimized for different audiences and contexts.
 
 ---
 
-## 🧩 The AI-VIBE Products (Fullstack Focus)
+## The Story: From Code to Product
 
-While the ecosystem spans 5 products, my work here focuses on the conversational and builder interfaces:
+### The Journey
 
-- **AI-VIBE-ChatWeb**: The primary entry point for human-agent collaboration. I focus on real-time streaming, context management, and intuitive UX for complex intent.
-- **AI-VIBE-WebBuilder**: Our generative site architect. I work on the bridge between agent-generated components and production-grade design systems.
-- **AI-VIBE-CLI**: The terminal interface for power users, ensuring parity with the web experience and robust background execution.
-- *Integrations*: Deeply connected with **Automation** for background sync and **VSCode** for the ultimate IDE-to-Web workflow.
+My evolution as a developer has been marked by an increasing focus on **product thinking**:
 
----
+1. **Coder** — Writing functional code that works
+2. **Developer** — Building features that solve problems
+3. **Engineer** — Architecting systems that scale
+4. **Product Builder** — Creating experiences users love
 
-## ⚙️ How This Portfolio Fits the Ecosystem
+### The Fullstack Philosophy
 
-This portfolio demonstrates the **Integration & Scalability** layer of the AI-VIBE-ECOSYSTEM. It showcases how we build full-stack interfaces that handle high-complexity agent interactions without sacrificing performance. It aligns with the **ChatWeb → Builder → CLI** workflow, where a conversation in the browser leads to a generated app and eventual terminal management.
+Fullstack isn't just about knowing frontend and backend — it's about **owning the entire user journey**:
 
----
+```
+User Need → Product Vision → Technical Architecture → Implementation → Metrics → Iteration
+    ↑_________________________________________________________________________________↓
+```
 
-## 🤖 Agents & Workflows I Use
+### What "Fullstack" Means Here
 
-In building this ecosystem, I leverage specialized agent workflows:
-- **Planner & Code Reviewer**: Ensuring that every full-stack feature is architected for scalability and security before PR.
-- **TDD Guide**: Driving our backend logic through test-driven development to ensure agent stability.
-- **Architect**: Mapping out the complex state machines required for multi-product synchronization.
-
----
-
-## 💎 Design & Quality Principles
-
-- **Human-First Development**: AI should reduce friction, not add complexity to the human experience.
-- **Security by Default**: Strict RLS, auth boundaries, and agent audit trails.
-- **Progressive Complexity**: Fast initial onboarding that scales to complex enterprise patterns.
-- **Tradeoffs Accepted**: Choosing React/Vite for this portfolio ensures a responsive, logic-heavy interface that mimics the complexity of our production systems.
+| Layer | Focus | Example |
+|-------|-------|---------|
+| **Product** | User outcomes, business value | "Reduce checkout time by 40%" |
+| **Frontend** | Interfaces, interactions, accessibility | React + TypeScript + Tailwind |
+| **Backend** | APIs, databases, performance | Node.js + PostgreSQL |
+| **DevOps** | Deployment, monitoring, reliability | CI/CD + Docker + Cloud |
 
 ---
 
+## The 60 Projects Ecosystem
 
-## Features
+### Overview
 
-- **Resume & Cover Letter Sections** — Complete professional history and 3-6 month impact plan
-- **VIBE Ecosystem Showcase** — Multi-product AI developer platform overview
-- **Project Browser** — Interactive navigation of 60+ projects
-- **Terminal-style Interface** — Cyber/terminal themed design
-- **Contact & Social Links** — Direct access to GitHub, LinkedIn, and phone
+A comprehensive collection of **60 production projects** spanning multiple domains:
+
+| Category | Count | Focus |
+|----------|-------|-------|
+| **Web Applications** | 16 | Full-stack SaaS products |
+| **Games** | 10 | Interactive browser experiences |
+| **Developer Tools** | 10 | CLI utilities, VS Code extensions |
+| **Starter Templates** | 16 | Boilerplates for rapid development |
+| **Portfolios** | 8 | These showcase experiences |
+
+### Fullstack Highlights
+
+| Project | Stack | Live |
+|---------|-------|------|
+| Geographic Explorer | React + TypeScript + Tailwind | [View](https://09-web-geographic-explorer.vercel.app) |
+| Recipe Finder | Vue + Firebase | [View](https://17-web-recipe-finder.vercel.app) |
+| Meme Generator | React + Canvas API | [View](https://19-web-meme-generator.vercel.app) |
+| QuizFlow PDF | React + PDF.js + OpenAI | [View](https://35-tool-quizflow.vercel.app) |
+
+### View All 60 Projects
+
+🔗 **[https://www.mkazi.live](https://www.mkazi.live)**
+
+---
+
+## AI-VIBE Ecosystem
+
+Building **AI-VIBE** — a multi-product AI developer platform:
+
+### Products in Development
+
+| Product | Role | Status |
+|---------|------|--------|
+| **VIBE ChatWeb** | Conversational interface | Live |
+| **VIBE WebBuilder** | Generative site architect | Planned |
+| **VIBE CLI** | Terminal interface | In Dev |
+| **VIBE Automation** | Workflow orchestration | In Dev |
+| **VIBE VSCode** | IDE extension | Planned |
+
+### Fullstack Integration Focus
+
+This portfolio emphasizes the **integration layer** of the VIBE ecosystem:
+
+- **Frontend-Backend Sync**: Real-time collaboration
+- **API Design**: RESTful and GraphQL patterns
+- **State Management**: Complex multi-product synchronization
+- **Authentication**: Secure, seamless user flows
+
+---
+
+## 8 Portfolio Ecosystem
+
+This is **#02 of 8** specialized portfolio experiences:
+
+| # | Portfolio | Theme | Audience | URL |
+|---|-----------|-------|----------|-----|
+| 01 | DevTools | Terminal/CLI | Developers | [Live](https://portfolio-devtools.web.app) |
+| 02 | **Fullstack** | Clean SaaS | Product Teams | [Live](https://mk-knight-fullstack.web.app) |
+| 03 | Frontend | Motion Design | Creative Agencies | [Live](https://mk-knight-frontend.web.app) |
+| 04 | Backend | Editorial | Engineering Teams | [Live](https://mk-knight-backend.web.app) |
+| 05 | Frontend AI | AI Lab | AI Startups | [Live](https://mk-knight-frontend-ai.web.app) |
+| 06 | Senior Frontend | Swiss Minimal | Enterprise | [Live](https://mk-knight-senior-frontend.web.app) |
+| 07 | Indie SaaS | Startup Style | Founders | [Live](https://portfolio-indie-saas.web.app) |
+| 08 | AI Automation | Systems Flow | DevOps/Platform | [Live](https://portfolio-ai-automation.web.app) |
 
 ---
 
 ## Tech Stack
 
-- **Frontend:** React 19, TypeScript, Framer Motion
-- **Styling:** Tailwind CSS v4 (cyber/terminal theme)
-- **Build:** Vite 6.x
-- **Deployment:** GitHub Pages, Vercel, Netlify
+| Category | Technology |
+|----------|------------|
+| **Frontend** | React 19, TypeScript |
+| **Styling** | Tailwind CSS v4 (clean SaaS theme) |
+| **Animations** | Framer Motion |
+| **Build Tool** | Vite 6.x |
+| **Testing** | Playwright (E2E) |
+| **Deployment** | Firebase Hosting |
 
 ---
 
-## Deployment
+## Key Features
 
-| Platform | URL |
-|----------|-----|
-| **Cloud Run** | [02-portfolio-fullstack.mk-knight970.cloud.run](https://02-portfolio-fullstack.mk-knight970.cloud.run/) |
-| **Cloudflare Workers** | [02-portfolio-fullstack.mk-knight970.workers.dev](https://02-portfolio-fullstack.mk-knight970.workers.dev/) |
-| **Vercel** | [02-portfolio-fullstack.vercel.app](https://02-portfolio-fullstack.vercel.app/) |
-| **Netlify** | [02-portfolio-fullstack.netlify.app](https://02-portfolio-fullstack.netlify.app/) |
-| **Render** | [zero2-portfolio-fullstack.onrender.com](https://zero2-portfolio-fullstack.onrender.com/) |
-| **GitHub Pages** | [mk-knight23.github.io/02-repos-browser](https://mk-knight23.github.io/02-repos-browser/) |
+### 🎯 Product Showcase
 
+- **Project Browser**: Interactive navigation of 60+ projects
+- **Case Study Cards**: Problem → Solution → Outcome format
+- **Tech Stack Tags**: Clear technology indicators
+- **Live Demos**: Direct links to deployed applications
+
+### 🎨 User Experience
+
+- **Keyboard Shortcuts**: Press 1-7 to jump to sections, `?` for help
+- **Project Search**: Real-time filtering by name or tech stack
+- **Skills Toggle**: View by proficiency or category
+- **Sidebar Persistence**: Remembers your preferences
+
+### ♿ Accessibility
+
+- WCAG 2.1 AA compliant
+- Keyboard navigation
+- Screen reader optimized
+- Reduced motion support
 
 ---
 
-## Local Setup
+## Design Principles
+
+### Product-First Thinking
+
+1. **Start with Outcomes**: What user problem does this solve?
+2. **Tradeoffs Documented**: Why React over Vue? Why REST over GraphQL?
+3. **Metrics Matter**: Load times, accessibility scores, Core Web Vitals
+4. **Iteration Visible**: Show evolution, not just final state
+
+### Clean SaaS Aesthetic
+
+- **Whitespace**: Let content breathe
+- **Clear Hierarchy**: Information organized by importance
+- **Subtle Interactions**: Motion that serves a purpose
+- **Consistent Patterns**: Predictable UI behaviors
+
+---
+
+## Local Development
 
 ```bash
 # Clone the repository
@@ -115,73 +190,98 @@ npm install
 # Start development server
 npm run dev
 
+# Run tests
+npm test
+
 # Build for production
 npm run build
 ```
 
 ---
 
-## Contact
+## Deployment
 
-- **Email:** [mk.knight970@gmail.com](mailto:mk.knight970@gmail.com)
-- **Phone:** +91 9765490536
-- **GitHub:** [mk-knight23](https://github.com/mk-knight23)
-- **LinkedIn:** [kazi-musharraf-0674871a4](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
-- **Location:** Hyderabad, India
+### Multi-Platform Deployment
 
----
+| Platform | URL |
+|----------|-----|
+| **Firebase** (Primary) | [mk-knight-fullstack.web.app](https://mk-knight-fullstack.web.app) |
+| Vercel | [02-portfolio-fullstack.vercel.app](https://02-portfolio-fullstack.vercel.app) |
+| Netlify | [02-portfolio-fullstack.netlify.app](https://02-portfolio-fullstack.netlify.app) |
+| Cloudflare | [workers.dev](https://02-portfolio-fullstack.mk-knight970.workers.dev) |
 
-## Additional Features (vNext)
+```bash
+# Deploy to Firebase
+firebase deploy
 
-Five focused enhancements aligned with full-stack development:
+# Deploy to Vercel
+vercel --prod
 
-### Keyboard Shortcuts
-**Why added:** Terminal users expect keyboard-first navigation. Clicking through sections feels wrong in a CLI-themed portfolio.
-
-**What changed:** Press 1-7 to jump directly to sections (Hero, Identity, Systems, Modules, Capabilities, Data Log, Establish Uplink). Press `?` to see all shortcuts in a modal. Skips when you're typing in the search box.
-
-### Sidebar State Persistence
-**Why added:** If I prefer the sidebar collapsed, I shouldn't have to re-collapse it on every visit.
-
-**What changed:** Sidebar open/closed state persists in localStorage. Remembers your preference across sessions. On mobile, it still auto-collapses (that's just good UX).
-
-### Case Study Project Cards
-**Why added:** Full-stack work is about solving problems, not just using tech. Recruiters want to see how I think through challenges.
-
-**What changed:** Click any project card to expand and reveal Problem → Solution → Outcome structure. Shows the thinking behind each build, not just the React/Node/Postgres stack. GitHub metrics (stars/forks) displayed on each card.
-
-### Skills by Proficiency Level
-**Why added:** "I know React" is vague. "I'm expert at React, learning Prisma" is honest and helps match me to the right role.
-
-**What changed:** Skills section now has two views: BY_PROFICIENCY (default) shows Expert/Proficient/Learning groupings. BY_CATEGORY shows original functional groupings. Toggle between them with one click.
-
-### Project Search
-**Why added:** With 60+ projects, scrolling to find the right one is frustrating. Search is expected UX.
-
-**What changed:** Real-time search filters projects by name or tech stack. Shows "X/Y modules found" count. Smooth AnimatePresence transitions.
-
-### Intentionally Rejected: Command Palette
-I considered adding a VS Code-style command palette (Cmd+K). Rejected because it's overkill for a single-page portfolio. The 1-7 shortcuts are faster for regular use, and `?` handles discovery. A command palette would add complexity without meaningful benefit—this is a portfolio, not an IDE.
+# Deploy to Netlify
+netlify deploy --prod
+```
 
 ---
 
-*Last Updated: February 01, 2026*
+## About Me
+
+**Kazi Musharraf** — Fullstack Product Builder
+
+- **Current**: Project Engineer (TURBO) at Wipro
+- **Focus**: End-to-end SaaS systems, AI integration, product strategy
+- **Experience**: 6+ years building production applications
+- **Philosophy**: Code is a means to an end — user outcomes matter most
+
+### What I'll Bring
+
+**First 3-6 months on your team:**
+
+1. **Product Audit**: Map current flows and identify friction
+2. **Architecture Review**: Ensure scalability for next 10x growth
+3. **Feature Development**: Ship high-impact features quickly
+4. **Team Enablement**: Improve DX and documentation
+
+### Connect
+
+- 📧 **Email**: [mk.knight970@gmail.com](mailto:mk.knight970@gmail.com)
+- 💻 **GitHub**: [@mk-knight23](https://github.com/mk-knight23)
+- 💼 **LinkedIn**: [kazi-musharraf](https://www.linkedin.com/in/kazi-musharraf-0674871a4)
+- 🌐 **Portfolio Hub**: [https://www.mkazi.live](https://www.mkazi.live)
 
 ---
 
-## 🌐 Live Web Projects (09-16)
+## Related Ecosystems
 
-View my deployed web applications:
+| Ecosystem | Description | Link |
+|-----------|-------------|------|
+| **60 Projects** | Production projects showcase | [mkazi.live](https://www.mkazi.live) |
+| **AI-VIBE** | AI developer platform | [GitHub](https://mk-knight23.github.io/AI-VIBE-ECOSYSTEM) |
+| **AI-SDK** | SDK implementations | [GitHub](https://mk-knight23.github.io/AI-SDK-ECOSYSTEM) |
 
-| # | Project | Live URL | Stack |
-|---|---------|----------|-------|
-| 09 | Geographic Explorer | [Live](https://09-web-geographic-explorer.vercel.app) | React 19 + TypeScript + Tailwind |
-| 10 | Time Display | [Live](https://10-web-time-display.vercel.app) | React 19 + TypeScript + Tailwind |
-| 11 | Keyboard Practice | [Live](https://11-web-keyboard-practice.vercel.app) | React 19 + TypeScript + Tailwind |
-| 12 | Editorial Blog | [Live](https://12-web-editorial-blog.vercel.app) | React 19 + TypeScript + Tailwind |
-| 13 | Brutalist Content | [Live](https://13-web-brutalist-content.vercel.app) | React 19 + TypeScript + Tailwind |
-| 14 | AI Research | [Live](https://14-web-ai-research.vercel.app) | React 19 + TypeScript + Tailwind |
-| 15 | Luxury Boutique | [Live](https://15-web-luxury-boutique.vercel.app) | React 19 + TypeScript + Tailwind |
-| 16 | Editorial Layouts | [Live](https://16-web-editorial-layouts.vercel.app) | React 19 + TypeScript + Tailwind |
+---
 
-*All projects verified live on 2026-02-03*
+## Changelog
+
+### v2.0 (February 2026)
+- ✨ Added case study project cards with Problem → Solution → Outcome format
+- ✨ Implemented project search with real-time filtering
+- ✨ Added keyboard shortcuts (1-7 navigation, `?` help)
+- ✨ Skills section with proficiency toggle
+- ✨ Sidebar state persistence
+
+### v1.0 (January 2026)
+- 🎉 Initial release
+- Terminal-inspired design
+- Basic project showcase
+
+---
+
+## License
+
+MIT © Kazi Musharraf
+
+---
+
+*Part of the 60 Projects Ecosystem — Built with React, TypeScript, and ☕*
+
+*Last Updated: February 2026*
