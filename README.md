@@ -134,6 +134,103 @@ This is **#02 of 8** specialized portfolio experiences:
 
 ---
 
+## 🏗️ Architecture
+
+### Project Structure
+
+```
+02-portfolio-fullstack/
+├── src/
+│   ├── components/       # React components
+│   │   ├── project/     # Project showcase components
+│   │   │   ├── ProjectCard.tsx
+│   │   │   ├── ProjectBrowser.tsx
+│   │   │   └── ProjectFilter.tsx
+│   │   ├── sections/    # Page sections
+│   │   │   ├── Hero.tsx
+│   │   │   ├── Projects.tsx
+│   │   │   ├── Skills.tsx
+│   │   │   └── About.tsx
+│   │   ├── ui/         # Reusable UI components
+│   │   │   ├── Button.tsx
+│   │   │   ├── Badge.tsx
+│   │   │   └── Modal.tsx
+│   │   └── layout/     # Layout components
+│   │       ├── Sidebar.tsx
+│   │       ├── Header.tsx
+│   │       └── Footer.tsx
+│   ├── hooks/           # Custom React hooks
+│   │   ├── useProjects.ts      # Project data management
+│   │   ├── useSearch.ts        # Search functionality
+│   │   ├── useKeyboard.ts      # Keyboard shortcuts
+│   │   └── useLocalStorage.ts  # Persistence
+│   ├── context/         # React Context providers
+│   │   └── AppContext.tsx
+│   ├── types/           # TypeScript type definitions
+│   │   ├── project.ts
+│   │   └── config.ts
+│   ├── data/            # Static data
+│   │   ├── projects.ts
+│   │   ├── skills.ts
+│   │   └── ecosystem.ts
+│   └── main.tsx         # Application entry point
+├── public/              # Static assets
+├── e2e/                 # Playwright E2E tests
+│   ├── tests/
+│   │   ├── navigation.spec.ts
+│   │   ├── search.spec.ts
+│   │   └── accessibility.spec.ts
+├── index.html           # HTML template
+├── vite.config.ts       # Vite configuration
+├── tsconfig.json        # TypeScript configuration
+├── tailwind.config.ts   # Tailwind CSS configuration
+├── playwright.config.ts # Playwright configuration
+└── server.js            # Express server for SSR (optional)
+```
+
+### Technology Stack
+
+| Layer | Technology |
+|-------|------------|
+| **Frontend** | React 19 + TypeScript |
+| **State Management** | Context API + Custom Hooks |
+| **Styling** | Tailwind CSS v4 |
+| **Animations** | Framer Motion |
+| **Build Tool** | Vite 6.x |
+| **Testing** | Playwright (E2E) |
+| **Deployment** | Firebase, Vercel, Netlify, Cloudflare Workers |
+| **Icons** | Lucide React |
+
+### Key Architectural Patterns
+
+- **Composition Pattern**: Reusable, composable components
+- **Custom Hooks**: Logic extraction and reuse
+- **Context API**: Global state management
+- **Type Safety**: Full TypeScript coverage
+- **Performance**: React.memo, lazy loading, code splitting
+- **Error Handling**: Error boundaries and graceful degradation
+- **Accessibility**: ARIA labels, keyboard navigation, screen reader support
+
+### Data Flow
+
+```
+Static Data → useProjects Hook → Project State → Components → UI
+Search Input → useSearch Hook → Filtered Projects → ProjectBrowser
+Keyboard Events → useKeyboard Hook → Navigation Actions
+User Actions → useLocalStorage Hook → Persistence
+```
+
+### Performance Optimizations
+
+- **Code Splitting**: Route-based and component-based
+- **Lazy Loading**: Components and assets loaded on demand
+- **Memoization**: React.memo for expensive renders
+- **Image Optimization**: WebP format, lazy loading
+- **Minification**: Production builds optimized
+- **Tree Shaking**: Dead code elimination
+
+---
+
 ## Key Features
 
 ### 🎯 Product Showcase
@@ -286,58 +383,6 @@ MIT © Kazi Musharraf
 
 *Part of the 60 Projects Ecosystem — Built with React, TypeScript, and ☕*
 
-*Last Updated: February 2026*
-
-
-## ✨ Features
-
-This repository has been upgraded with the following features:
-
-1. **Add React.memo for performance** ✅
-2. **Implement custom hooks** ✅
-3. **Add context API for state** ✅
-4. **Implement lazy loading** ✅
-5. **Add error boundaries** ✅
-6. **Create reusable components** ✅
-7. **Add TypeScript types** ✅
-8. **Implement responsive design** ✅
-9. **Add animations with Framer Motion** ✅
-10. **Create unit tests with React Testing Library** ✅
+*Last Updated: 2026-02-28*
 
 ---
-
-## 🚀 Quick Start
-
-```bash
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-```
-
-## 📦 Tech Stack
-
-- Modern web framework
-- Optimized for performance
-- Responsive design
-- Accessibility ready
-
-## 🛠️ Installation
-
-```bash
-git clone https://github.com/mk-knight23/02-portfolio-fullstack.git
-cd 02-portfolio-fullstack
-npm install
-```
-
-## 📝 License
-
-MIT
-
----
-
-*Last updated: 2026-02-27*
