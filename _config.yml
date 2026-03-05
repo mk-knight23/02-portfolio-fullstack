@@ -1,0 +1,32 @@
+title: Live Evolution Project
+description: Part of the 60-Repo Evolution Initiative
+theme: jekyll-theme-cayman
+show_downloads: true
+google_analytics: UA-XXXXXXXX-X
+
+# Repository info
+repository: mk-knight23/02-portfolio-fullstack
+
+github:
+  is_project_page: true
+  repository_url: https://github.com/mk-knight23/02-portfolio-fullstack
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - README.md
+  - EVOLUTION.md
+  - docs/
+
+exclude:
+  - node_modules
+  - .git
+  - .github
+  - .env
