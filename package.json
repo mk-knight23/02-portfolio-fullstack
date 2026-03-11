@@ -5,6 +5,7 @@
     "description": "A modern project browser showcasing 30 web development repositories with search, filtering, and animated UI built with React 19, TypeScript, and Tailwind CSS v4.",
     "type": "module",
     "scripts": {
+    "production": "npm run build && npm start",
         "dev": "vite",
         "build": "tsc && vite build",
         "preview": "vite preview",
