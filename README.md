@@ -1,3 +1,5 @@
+# [![CI/CD](https://github.com/mk-knight23/02-portfolio-fullstack/actions/workflows/ci.yml/badge.svg)](https://github.com/mk-knight23/02-portfolio-fullstack/actions)
+
 # 🚀 02-portfolio-fullstack (Collective Production Edition)
 
 ## 💎 Overview
