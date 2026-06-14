@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import { RippleTrail } from "./cinematic/RippleTrail";
+import { VideoBackground } from "./cinematic/VideoBackground";
+import { videoSlots } from "./cinematic/assets";
 import {
   Terminal,
   Code2,
@@ -302,6 +305,9 @@ function App() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(6,182,212,0.1),transparent_50%)]"></div>
       </div>
 
+      {/* Liquid mouse ripple trail */}
+      <RippleTrail />
+
       {/* Sidebar */}
       <motion.aside
         initial={false}
@@ -421,8 +427,15 @@ function App() {
       >
         <div className="max-w-5xl mx-auto p-8">
           {/* Hero Section */}
-          <section id="hero" className="min-h-[80vh] flex items-center py-16">
-            <div className="w-full">
+          <section
+            id="hero"
+            className="relative min-h-[80vh] flex items-center py-16 overflow-hidden rounded-2xl"
+          >
+            <VideoBackground
+              slot={videoSlots.hero}
+              overlay="linear-gradient(to bottom, rgba(3,7,18,0.72) 0%, rgba(3,7,18,0.55) 45%, rgba(3,7,18,0.85) 100%)"
+            />
+            <div className="relative z-10 w-full">
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}

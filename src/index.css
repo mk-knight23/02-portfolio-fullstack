@@ -14,3 +14,41 @@
         @apply bg-slate-950 text-slate-50;
     }
 }
+/* ───────────── CINEMATIC KIT (cyan terminal theme) ───────────── */
+:root {
+    --cine-accent: 34, 211, 238;   /* cyan-400 */
+    --cine-ink: 3, 7, 18;          /* #030712 */
+    --ease-luxury: cubic-bezier(0.19, 1, 0.22, 1);
+}
+.glass-card {
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(20px) saturate(150%);
+    -webkit-backdrop-filter: blur(20px) saturate(150%);
+    border: 1px solid rgba(var(--cine-accent),0.2);
+    transition: all 0.5s var(--ease-luxury);
+}
+.glass-card:hover { border-color: rgba(var(--cine-accent),0.5); transform: translateY(-2px); }
+.cine-bg-fallback {
+    background:
+        radial-gradient(60% 80% at 20% 20%, rgba(var(--cine-accent),0.28), transparent 60%),
+        radial-gradient(50% 70% at 85% 30%, rgba(var(--cine-accent),0.18), transparent 60%),
+        radial-gradient(80% 90% at 50% 100%, rgba(var(--cine-ink),0.92), rgba(var(--cine-ink),1)),
+        linear-gradient(135deg, #03070f, #06141c 50%, #03070f);
+    background-size: 200% 200%, 200% 200%, 100% 100%, 100% 100%;
+    animation: cineDrift 18s ease-in-out infinite;
+}
+@keyframes cineDrift {
+    0% { background-position: 0% 0%, 100% 0%, 0 0, 0 0; }
+    50% { background-position: 100% 100%, 0% 100%, 0 0, 0 0; }
+    100% { background-position: 0% 0%, 100% 0%, 0 0, 0 0; }
+}
+@keyframes scrollDot { 0%{transform:translateY(0);opacity:.7} 80%{transform:translateY(32px);opacity:0} 100%{transform:translateY(32px);opacity:0} }
+.scroll-dot { animation: scrollDot 2s var(--ease-luxury) infinite; }
+.ripple-trail { position: fixed; inset: 0; z-index: 30; pointer-events: none; overflow: hidden; }
+.ripple-dot {
+    position: absolute; top: 0; left: 0; border-radius: 50%; pointer-events: none;
+    backdrop-filter: url(#liquid-trail) blur(1px); -webkit-backdrop-filter: blur(1px);
+    box-shadow: inset 0 0 30px rgba(255,255,255,0.1), 0 0 15px rgba(var(--cine-accent),0.18);
+    will-change: transform, width, height, opacity;
+}
+@media (prefers-reduced-motion: reduce) { .cine-bg-fallback,.scroll-dot { animation: none; } }
