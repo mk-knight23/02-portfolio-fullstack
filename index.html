@@ -1947,6 +1947,38 @@ img,video,canvas{max-width:100%}
  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',clean);else clean();
 })();
 </script>
+<script id="v7-js">(function(){
+ var KEEP=/-mk$/; // my unified content sections
+ function isMine(s){return KEEP.test(s.id)||s.matches('.cine-gallery,.ghp,.lab,.cstl,.sim,.dev,.hero,.mk');}
+ var DUP=/about|skill|resume|cv\b|experience|education|contact|featur|project|ecosystem|work|stack|expertise|story|capab|journey|tech|career|creation/i;
+ function removeDupSections(){
+  document.querySelectorAll('section').forEach(function(s){
+   if(isMine(s))return;
+   var label=(s.id+' '+(((s.querySelector('h1,h2,h3,h4')||{}).textContent)||'')).toLowerCase();
+   if(DUP.test(label)) s.remove();
+  });
+ }
+ function cleanDeadLinks(){
+  // remove anchor links pointing to sections that no longer exist (non-clickable / stale)
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+   if(a.closest('.cine-tabs'))return;
+   var id=a.getAttribute('href').slice(1); if(!id)return;
+   if(!document.getElementById(id)){var li=a.closest('li');(li||a).remove();}
+  });
+  // remove original nav/header menus left empty (keep my tab bar + theme switcher)
+  document.querySelectorAll('nav,header,.menu,.navbar,[class*="nav-menu"],[class*="navbar"]').forEach(function(n){
+   if(n.classList.contains('cine-tabs')||n.classList.contains('cine-tsw')||n.classList.contains('mk'))return;
+   if(n.querySelector('.cine-tabs,.cine-tsw,.ghp,.mk,#ghpGrid'))return;
+   if(n.querySelectorAll('a').length===0) n.style.display='none';
+  });
+ }
+ function pass1(){removeDupSections();cleanDeadLinks();}
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',pass1);else pass1();
+ // second sweep to catch JS-built original menus, after tabify settles
+ setTimeout(cleanDeadLinks,900);
+ setTimeout(cleanDeadLinks,2000);
+})();
+</script>
 </head>
 
 <body>
