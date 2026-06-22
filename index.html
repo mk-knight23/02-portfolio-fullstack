@@ -1921,6 +1921,32 @@ canvas.mkc-net{position:fixed;inset:0;z-index:9990;pointer-events:none}
 <meta property="og:type" content="website"><meta property="og:url" content="https://kazi-02-fullstack.vercel.app/">
 <meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Musharraf Kazi — AI Systems & Full-Stack Product Builder">
 <meta name="twitter:description" content="Portfolio of Musharraf Kazi — AI Engineer & Full-Stack Developer building AI agents, SaaS products, automation systems, developer tools and production-ready web apps.">
+<style id="v6-css">/* mobile safety / responsiveness */
+html,body{overflow-x:hidden;max-width:100vw}
+img,video,canvas{max-width:100%}
+@media(max-width:640px){
+ .cine-tabs{flex-wrap:nowrap!important;overflow-x:auto;justify-content:flex-start!important;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+ .cine-tabs::-webkit-scrollbar{display:none}
+ .cine-tab{flex:0 0 auto}
+ .mk{padding:48px 18px}
+ .mk-cta a,.ghp-btns a,.cine-tab{min-height:42px;display:inline-flex;align-items:center;justify-content:center}
+ .cine-brand,.mk-brand2{display:none!important}
+}
+</style>
+<script id="v6-js">(function(){
+ function clean(){
+  // 1. de-duplicate: remove ORIGINAL sections now superseded by the unified MK content
+  ['about','skills','resume','contact','experience','education'].forEach(function(id){
+    var e=document.getElementById(id); if(e&&e.tagName==='SECTION'&&!e.id.endsWith('-mk')) e.remove();
+  });
+  // 2. SEO: drop the duplicate description I added (keep the site's canonical one)
+  var dup=document.getElementById('mk-seo'); if(dup) dup.remove();
+  // collapse any remaining duplicate <meta name=description> (keep first)
+  var seen=false; document.querySelectorAll('meta[name="description"]').forEach(function(m){if(seen)m.remove();else seen=true;});
+ }
+ if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',clean);else clean();
+})();
+</script>
   <script type="module" crossorigin src="./assets/index-BRZKd7iy.js"></script>
 </head>
 
